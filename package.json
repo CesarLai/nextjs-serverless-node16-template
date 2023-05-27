@@ -1,0 +1,28 @@
+{
+  "name": "nextjs-serverless-template",
+  "version": "0.1.0",
+  "private": true,
+  "repository": "git@github.com:CesarLai/nextjs-serverless-template.git",
+  "description": "基于 NextJS 搭建 Serverless 应用的模板。",
+  "author": "Cesar Lai",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "deploy": "sls deploy",
+    "deploy:layer": "sls deploy --target=./layer"
+  },
+  "dependencies": {
+    "next": "13.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "14.14.22",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "@types/webpack-env": "1.16.4",
+    "typescript": "4.6.4"
+  }
+}
